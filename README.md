@@ -1,6 +1,6 @@
 # wÖrter
 
-This is a simple project that I have built for myself. I am currently learning German and I wanted to create something that would help my language process, specifcally when it comes to learning vocabulary.
+This is a simple project that I have built for myself. I am currently learning German and I wanted to create something that would help my language learning process, specifcally when it comes to learning vocabulary.
 
 The wÖter app helps me: 
 
