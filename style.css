@@ -1,0 +1,72 @@
+*{
+  font-family: fantasy;
+}
+
+body{
+  background-image: url("../img/library.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.container{
+  height: 90vh;
+  width: 70vw;
+  border: solid 2px rgba(255, 255, 255, .7);
+  border-radius: 10px;
+  overflow: scroll;
+  background-color: rgba(54, 25, 25, .3);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.app{
+  grid-column: 1/-1;
+  grid-row: 2/-1;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 1fr);
+}
+
+h1{
+  color: white;
+  grid-column: 1/-1;
+  place-self: center;
+}
+
+.textspace{
+  border: solid 1px black;
+  border-radius: 10px;
+  height: 5vh;
+  width: 20vw;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
+
+.addbutton{
+  height: 5vh;
+  width: 5vw;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(244, 80, 119, .5);
+  grid-row: 2/3;
+  grid-column: 1/-1;
+  font-size: 1.3vw;
+  font-weight: bold;
+  place-self: center;
+  margin: 2vw;
+
+}
+
+#list{
+  color: white;
+  font-size: 2vw;
+  grid-column: 1/-1;
+  grid-row: 3/-1;
+}
